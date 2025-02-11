@@ -27,6 +27,7 @@ jobs:
         pip install mkdocs-material
         pip install markdown-include
         pip install mkdocs-include-markdown-plugin
+        pip install mkdocs-autorefs
 
     - name: Deploy to GitHub Pages
       run: |
