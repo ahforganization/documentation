@@ -1,0 +1,18 @@
+site_name: Dalia's Docs
+repo_url: https://github.com/ahforganization/documentation
+repo_name: documentation
+
+theme: 
+  name: material
+  language: en
+  palette:
+    primary: deep_orange
+    accent: amber
+
+nav:
+  - Home: index.md
+  - Research: research.md
+  - Publications: publications.md
+  - People: people.md
+  - Contact: contact.md
+  - Survey Status: survey_status.md
