@@ -1,0 +1,9 @@
+site_name: Dalia's Docs
+
+nav:
+  - Home: index.md
+  - Research: research.md
+  - Publications: publications.md
+  - People: people.md
+  - Contact: contact.md
+  - Survey Status: survey_status.md

@@ -1,0 +1,21 @@
+site_name: My Docs
+repo_url: https://github.com/ahforganization/documentation
+repo_name: Modular-Robots-Research
+
+theme: 
+  name: material
+  language: en
+  palette:
+    primary: deep_orange
+    accent: amber
+
+nav:
+  - Ahmed:
+      - !include ahmed/mkdocs.yml
+  - Dalia:
+      - !include dalia/mkdocs.yml
+
+
+extra:
+  feature:
+    tabs: true

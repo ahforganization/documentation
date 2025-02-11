@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+markdown = "^3.7"
+pypdf2 = "^3.0.1"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
