@@ -1,4 +1,6 @@
-site_name: Ahmed's Docs
+site_name: Dalia's Docs
+repo_url: https://github.com/ahforganization/documentation
+repo_name: documentation
 
 theme: 
   name: material

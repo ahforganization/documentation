@@ -12,11 +12,24 @@ theme:
 plugins:
   - include-markdown
   - search
+  - autorefs
 nav:
   - Home: index.md
-  - Ahmed: '!include: ./ahmed/mkdocs.yml'
-  - Dalia: '!include: ./dalia/mkdocs.yml'
+  - Ahmed:  
+    - Home: ahmed/docs/index.md
+    - Research: ahmed/docs/research.md
+    - Publications: ahmed/docs/publications.md
+    - People: ahmed/docs/people.md
+    - Contact: ahmed/docs/contact.md
+    - Survey Status: ahmed/docs/survey_status.md
+  - Dalia:  
+    - Home: dalia/docs/index.md
+    - Research: dalia/docs/research.md
+    - Publications: dalia/docs/publications.md
+    - People: dalia/docs/people.md
+    - Contact: dalia/docs/contact.md
+    - Survey Status: dalia/docs/survey_status.md
 
-# extra:
-#   feature:
-#     tabs: trues
+extra:
+  feature:
+    tabs: trues0
