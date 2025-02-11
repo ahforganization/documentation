@@ -17,6 +17,6 @@ nav:
   - Ahmed: '!include: ./ahmed/mkdocs.yml'
   - Dalia: '!include: ./dalia/mkdocs.yml'
 
-extra:
-  feature:
-    tabs: trues
+# extra:
+#   feature:
+#     tabs: trues

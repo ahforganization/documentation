@@ -1,5 +1,12 @@
 site_name: Dalia's Docs
 
+theme: 
+  name: material
+  language: en
+  palette:
+    primary: deep_orange
+    accent: amber
+
 nav:
   - Home: index.md
   - Research: research.md
